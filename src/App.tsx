@@ -14,7 +14,6 @@ function App() {
     console.log(process.env.REACT_APP_PASS)
     var password = prompt("Enter in the password");
     if (password === process.env.REACT_APP_PASS) setAuthenticated(true)
-        
   }, [])
 
   if (authenticated) {
