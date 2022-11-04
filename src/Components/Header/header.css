@@ -1,0 +1,14 @@
+.navigation {
+    background-color: #F4B5CD !important;
+    color: #DB2463 !important;
+    box-shadow: 0px 2px 4px -1px #F4B5CD, 0px 4px 5px 0px #F4B5CD, 0px 1px 10px 0px #F4B5CD !important;
+}
+
+.drawer-icon-box {
+    height: 48px;
+    background: repeat-x url('../../assets/images/heart.svg'), linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(244,181,205,255) 100%);
+}
+
+.clickableMouse:hover {
+    cursor: pointer;
+}

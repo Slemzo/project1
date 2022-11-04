@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import Box from '@mui/material/Box';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import Landing from './Components/Landing/Landing';
+import MyGallery from './Components/MyGallery/MyGallery';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="my-gallery" element={<MyGallery />} />
+      </Routes>
+      <Footer />
+    </Box>
   );
 }
 
