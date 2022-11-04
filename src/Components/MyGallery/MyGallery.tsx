@@ -14,7 +14,7 @@ const MyGallery = () => {
             <Typography color='#777' align="center" variant="subtitle1" component="h2">
                 {TEXT}
             </Typography>;
-            <Box component="main">
+            <Box component="main" marginBottom={2}>
                 <Grid container spacing={2}>
                     <Grid item xs={12} sm={4}>
                         <Card style={{borderRadius: 16}}>
