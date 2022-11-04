@@ -27,28 +27,28 @@ const MyGallery = () => {
                     <Grid item xs={12} sm={4}>
                         <Card style={{borderRadius: 16}}>
                             <CardContent style={{borderRadius: 16}}>
-                                <img width='100%' height='100%' src={'images/img2.jpg'} />
+                                <img alt="img2" width='100%' height='100%' src={'images/img2.jpg'} />
                             </CardContent>
                         </Card>
                     </Grid>
                     <Grid item xs={12} sm={4}>
                         <Card style={{borderRadius: 16}}>
                             <CardContent style={{borderRadius: 16}}>
-                                <img width='100%' height='100%' src={'images/img3.jpg'} />
+                                <img alt="img3" width='100%' height='100%' src={'images/img3.jpg'} />
                             </CardContent>
                         </Card>
                     </Grid>
                     <Grid item xs={12} sm={6}>
                         <Card style={{borderRadius: 16}}>
                             <CardContent style={{borderRadius: 16}}>
-                                <img width='100%' height='100%' src={'images/img4.jpg'} />
+                                <img alt="img4" width='100%' height='100%' src={'images/img4.jpg'} />
                             </CardContent>
                         </Card>
                     </Grid>
                     <Grid item xs={12} sm={6}>
                         <Card style={{borderRadius: 16}}>
                             <CardContent style={{borderRadius: 16}}>
-                                <img width='100%' height='100%' src={'images/img1.jpg'} />
+                                <img alt="img1" width='100%' height='100%' src={'images/img1.jpg'} />
                             </CardContent>
                         </Card>
                     </Grid>

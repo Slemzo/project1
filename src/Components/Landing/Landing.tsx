@@ -24,7 +24,7 @@ const Landing = () => {
                 <Grid  item xs={10} md={5}>
                     <Card className="grid-item" style={{ borderRadius: 16 }}>
                         <CardContent style={{ borderRadius: 16, display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: '#ACACAC' }}>
-                            <img width={75} height={75} src={'images/allmylinks.svg'} />
+                            <img alt="allmylinks" width={75} height={75} src={'images/allmylinks.svg'} />
 
                             <Typography marginTop={3} marginBottom={1} color='#DB2463' align="center" variant="h4" component="h2">
                                 My 🌶 content is here!
@@ -35,7 +35,7 @@ const Landing = () => {
                             </Typography>
 
                             <Button>
-                                <a style={{ textDecoration: 'none' }} href='https://allmylinks.com/anjchybir' target='_blank'>
+                                <a style={{ textDecoration: 'none' }} href='https://allmylinks.com/anjchybir' rel="noreferrer" target='_blank'>
                                     <Button sx={{ color: '#DB2463', backgroundColor: '#F4B5CD' }}>
                                         GO!
                                     </Button>
@@ -48,7 +48,7 @@ const Landing = () => {
                 <Grid item xs={10} md={5}>
                     <Card className="grid-item" style={{ borderRadius: 16 }}>
                         <CardContent style={{ borderRadius: 16, display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: '#ACACAC' }}>
-                            <img width={75} height={75} src={'images/gallery.svg'} />
+                            <img alt="gallery" width={75} height={75} src={'images/gallery.svg'} />
 
                             <Typography marginTop={3} marginBottom={1} color='#DB2463' align="center" variant="h4" component="h2">
                                 Check my gallery
@@ -70,7 +70,7 @@ const Landing = () => {
                 <Grid item xs={10} md={5}>
                     <Card className="grid-item" style={{ borderRadius: 16 }}>
                         <CardContent style={{ borderRadius: 16, display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: '#ACACAC' }}>
-                        <img width={75} height={75} src={'images/snapchat.svg'} />
+                        <img alt="snapchat" width={75} height={75} src={'images/snapchat.svg'} />
 
                             <Typography marginTop={3} marginBottom={1} color='#DB2463' align="center" variant="h4" component="h2">
                                 Add me on Snapchat
@@ -81,7 +81,7 @@ const Landing = () => {
                             </Typography>
 
                             <Button>
-                                <a style={{ textDecoration: 'none' }} href='https://t.snapchat.com/3ExrLwiX' target='_blank'>
+                                <a style={{ textDecoration: 'none' }} href='https://t.snapchat.com/3ExrLwiX' rel="noreferrer" target='_blank'>
                                     <Button sx={{ color: '#DB2463', backgroundColor: '#F4B5CD' }}>
                                         Open
                                     </Button>
@@ -95,7 +95,7 @@ const Landing = () => {
                 <Grid item xs={10} md={5}>
                     <Card className="grid-item" style={{ borderRadius: 16 }}>
                         <CardContent style={{ borderRadius: 16, display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: '#ACACAC' }}>
-                        <img width={75} height={75} src={'images/instagram.svg'} />
+                        <img alt="instagram" width={75} height={75} src={'images/instagram.svg'} />
 
                             <Typography marginTop={3} marginBottom={1} color='#DB2463' align="center" variant="h4" component="h2">
                                 Add me on Instagram
@@ -106,7 +106,7 @@ const Landing = () => {
                             </Typography>
 
                             <Button>
-                                <a style={{ textDecoration: 'none' }} href='https://instagram.com/anjchybir' target='_blank'>
+                                <a style={{ textDecoration: 'none' }} href='https://instagram.com/anjchybir' rel="noreferrer" target='_blank'>
                                     <Button sx={{ color: '#DB2463', backgroundColor: '#F4B5CD' }}>
                                         Open
                                     </Button>
