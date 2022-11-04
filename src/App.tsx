@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     console.log(process.env.REACT_APP_PASS)
     var password = prompt("Enter in the password");
-    if (password==process.env.REACT_APP_PASS) setAuthenticated(true)
+    if (password === process.env.REACT_APP_PASS) setAuthenticated(true)
         
   }, [])
 
